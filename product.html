@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="product">
+    <header>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="category.html">CATEGORIES</a></li>
+      </ul>
+    </header>
+
+    <template id="productTemplate">
+      <section class="actualproduct">
+        <img
+          class="productimage"
+          src="https://kea-alt-del.dk/t7/images/webp/640/2801.webp"
+          alt="sandals"
+        />
+        <section>
+          <h1 class="modelname">Sahara sandals smth</h1>
+          <p class="brand">Nike / T-shirts</p>
+          <label>
+            <h5>Size</h5>
+            <select name="size" id="size">
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+            </select>
+          </label>
+          <h4 class="price">54.99$</h4>
+          <div class="center" id="button">Add to basket</div>
+        </section>
+      </section>
+    </template>
+
+    <!-- <section class="productView">
+        <img class=".productimage" src="https://kea-alt-del.dk/t7/images/webp/640/2801.webp" alt="shirt"/>
+        <div class="productInfo">
+            <h1 class="productname">Jersey</h1>
+            <a class="brand">Nike</a>
+            <label>
+            <h5>Size</h5>
+            <select name="size" id="size">
+                <option>XS</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+            </select>
+            </label>
+            <h4>54.99$</h4>
+            <div class="center" id="button">Add to basket</div>
+        </div>
+    </section>
+    <div>
+        <h2>Model name:</h2>
+        <h3 class=productname>Sahara Team India</h3>
+        <h2>ID</h2>
+        <h3>1163</h3>
+        <h2>Color:</h2>
+        <h3>Blue</h3>
+    </div> -->
+
+    <script src="product.js"></script>
+  </body>
+</html>
